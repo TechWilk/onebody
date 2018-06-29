@@ -19,7 +19,7 @@ gem 'acts_as_list'
 gem 'acts_as_taggable_on_steroids', github: 'seven1m/acts_as_taggable_on_steroids'
 gem 'authority'
 gem 'bcrypt'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '>= 3.3.7'
 gem 'bugsnag'
 gem 'builder'
 gem 'coffee-rails'
@@ -50,7 +50,7 @@ gem 'rails_autolink'
 gem 'react-rails'
 gem 'responders'
 gem 'sanitize'
-gem 'sass-rails'
+gem 'sass-rails', '>= 5.0.6'
 gem 'strong_password'
 gem 'sucker_punch'
 gem 'thin'
@@ -82,7 +82,7 @@ group :development do
 end
 
 group :development, :test do
-  gem 'guard-rspec', require: false
+  gem 'guard-rspec', '>= 4.7.3', require: false
   gem 'pry'
   gem 'pry-rails'
   gem 'pry-remote'
