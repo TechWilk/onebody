@@ -7,7 +7,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'rails', '5.1.4'
+gem 'rails', '5.1.6.1'
 
 # select the appropriate gem below for your database:
 gem 'mysql2'
@@ -37,7 +37,7 @@ gem 'highline'
 gem 'html_truncator'
 gem 'httparty'
 gem 'jquery-rails'
-gem 'load_and_authorize_resource'
+gem 'load_and_authorize_resource', '>= 0.4.1'
 gem 'loofah'
 gem 'mini_magick'
 gem 'mustache'
@@ -46,7 +46,7 @@ gem 'omniauth-facebook'
 gem 'paperclip'
 gem 'prawn'
 gem 'pusher'
-gem 'rails_autolink'
+gem 'rails_autolink', '>= 1.1.6'
 gem 'react-rails'
 gem 'responders'
 gem 'sanitize'
