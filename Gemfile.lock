@@ -222,7 +222,7 @@ GEM
     method_source (0.8.2)
     mime-types (2.99.3)
     mimemagic (0.3.2)
-    mini_magick (4.8.0)
+    mini_magick (4.9.4)
     mini_portile2 (2.3.0)
     minitest (5.10.3)
     money (6.9.0)
@@ -470,7 +470,7 @@ DEPENDENCIES
   jquery-rails
   load_and_authorize_resource
   loofah
-  mini_magick
+  mini_magick (>= 4.9.4)
   mustache
   mysql2
   newrelic_rpm
@@ -509,4 +509,4 @@ DEPENDENCIES
   with_advisory_lock
 
 BUNDLED WITH
-   1.15.4
+   1.17.3
