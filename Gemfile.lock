@@ -165,7 +165,7 @@ GEM
     font-awesome-rails (4.7.0.2)
       railties (>= 3.2, < 5.2)
     formatador (0.2.5)
-    geocoder (1.4.4)
+    geocoder (1.6.1)
     github_api (0.17.0)
       addressable (~> 2.4.0)
       descendants_tracker (~> 0.0.4)
@@ -460,7 +460,7 @@ DEPENDENCIES
   feedjira
   flag_shih_tzu
   font-awesome-rails
-  geocoder
+  geocoder (>= 1.6.1)
   github_api
   guard-rspec
   haml
@@ -509,4 +509,4 @@ DEPENDENCIES
   with_advisory_lock
 
 BUNDLED WITH
-   1.15.4
+   1.17.3
