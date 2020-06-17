@@ -127,7 +127,7 @@ GEM
       sort_alphabetical (~> 1.0)
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
-    crass (1.0.2)
+    crass (1.0.6)
     daemons (1.2.4)
     date_validator (0.9.0)
       activemodel
@@ -223,7 +223,7 @@ GEM
     mime-types (2.99.3)
     mimemagic (0.3.2)
     mini_magick (4.8.0)
-    mini_portile2 (2.3.0)
+    mini_portile2 (2.4.0)
     minitest (5.10.3)
     money (6.9.0)
       i18n (>= 0.6.4, < 0.9)
@@ -238,10 +238,10 @@ GEM
     net-ssh (4.2.0)
     newrelic_rpm (4.4.0.336)
     nio4r (2.1.0)
-    nokogiri (1.8.1)
-      mini_portile2 (~> 2.3.0)
-    nokogumbo (1.4.13)
-      nokogiri
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
+    nokogumbo (2.0.2)
+      nokogiri (~> 1.8, >= 1.8.4)
     notiffany (0.1.1)
       nenv (~> 0.1)
       shellany (~> 0.0)
@@ -355,10 +355,10 @@ GEM
     rspec-support (3.6.0)
     ruby_dep (1.5.0)
     safe_yaml (1.0.4)
-    sanitize (4.5.0)
+    sanitize (5.2.1)
       crass (~> 1.0.2)
-      nokogiri (>= 1.4.4)
-      nokogumbo (~> 1.4.1)
+      nokogiri (>= 1.8.0)
+      nokogumbo (~> 2.0)
     sass (3.5.1)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
@@ -489,7 +489,7 @@ DEPENDENCIES
   react-rails
   responders
   rspec-rails
-  sanitize
+  sanitize (>= 5.2.1)
   sass-rails
   shoulda-matchers!
   spring
@@ -509,4 +509,4 @@ DEPENDENCIES
   with_advisory_lock
 
 BUNDLED WITH
-   1.15.4
+   1.17.3
