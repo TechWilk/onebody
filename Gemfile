@@ -14,7 +14,7 @@ gem 'mysql2'
 #gem 'pg'
 
 gem 'activemodel-serializers-xml'
-gem 'activerecord-session_store'
+gem 'activerecord-session_store', '>= 2.0.0'
 gem 'acts_as_list'
 gem 'acts_as_taggable_on_steroids', github: 'seven1m/acts_as_taggable_on_steroids'
 gem 'authority'
